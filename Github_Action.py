@@ -17,20 +17,22 @@ import requests
 from bs4 import BeautifulSoup
 
 # 账户信息：用户名和密码
-USERNAME = os.getenv('gyx5019@gmail.com')  # 填写用户名或邮箱
-PASSWORD = os.getenv('gyx9043566')  # 填写密码
+USERNAME = 'gyx5019@gmail.com'  # 填写用户名或邮箱
+PASSWORD = 'gyx9043566'  # 填写密码
 
 # TrueCaptcha API 配置
-TRUECAPTCHA_USERID = os.getenv('gyx5019@gmail.com')
-TRUECAPTCHA_APIKEY = os.getenv('lCrTjgE6ZGWuxCo2texc')
+# 申请地址: https://truecaptcha.org/
+
+TRUECAPTCHA_USERID = 'gyx5019@gmail.com'
+TRUECAPTCHA_APIKEY = 'lCrTjgE6ZGWuxCo2texc'
 
 # Mailparser 配置
-MAILPARSER_DOWNLOAD_URL_ID = os.getenv('ylfguqwo')
-MAILPARSER_DOWNLOAD_BASE_URL = "https://files.mailparser.io/d/"
+MAILPARSER_DOWNLOAD_URL_ID = 'ylfguqwo' # 填写Mailparser的下载URL_ID
+MAILPARSER_DOWNLOAD_BASE_URL = "https://files.mailparser.io/d/" # 无需更改除非你要反代
 
 # Telegram Bot 推送配置
-TG_BOT_TOKEN = os.getenv('7709264875:AAHtqdNOLYbSo4y5g60GkkMptNNQFkdjqE0')
-TG_USER_ID = os.getenv('6954622995')
+TG_BOT_TOKEN = "7709264875:AAHtqdNOLYbSo4y5g60GkkMptNNQFkdjqE0"
+TG_USER_ID = "6954622995" # 用户机器人向你发送消息
 TG_API_HOST = "https://api.telegram.org"
 
 # 代理设置（如果需要）
