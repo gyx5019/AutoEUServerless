@@ -27,7 +27,7 @@ TRUECAPTCHA_USERID = 'gyx5019@gmail.com'
 TRUECAPTCHA_APIKEY = 'lCrTjgE6ZGWuxCo2texc'
 
 # Mailparser 配置
-MAILPARSER_DOWNLOAD_URL_ID = 'ylfguqwo' # 填写Mailparser的下载URL_ID
+MAILPARSER_DOWNLOAD_URL_ID = 'sgytkzwd' # 填写Mailparser的下载URL_ID
 MAILPARSER_DOWNLOAD_BASE_URL = "https://files.mailparser.io/d/" # 无需更改除非你要反代
 
 # Telegram Bot 推送配置
